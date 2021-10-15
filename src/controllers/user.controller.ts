@@ -63,7 +63,7 @@ export const createUserController = async (req: Request, res: Response): Promise
   }
 }
 
-const returnError = (res: Response, error: any) => {
+const returnError = (res: Response, error: unknown) => {
   console.log(error)
   res.status(400).json({
     message: 'Cannot create the user!!!'

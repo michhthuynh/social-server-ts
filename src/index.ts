@@ -1,4 +1,4 @@
-import express, { Application, Request, Response } from 'express'
+import express, { Application } from 'express'
 import routers from './routers'
 import morgan from 'morgan'
 
